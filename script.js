@@ -1,4 +1,27 @@
 (function(){
+  var nav=document.getElementById('nav'),b=document.getElementById('burger'),links=document.getElementById('nav-links');
+  if(nav&&b){
+    function set(o){nav.classList.toggle('open',o);b.setAttribute('aria-expanded',o?'true':'false');b.setAttribute('aria-label',o?'Close menu':'Open menu');}
+    b.addEventListener('click',function(){set(!nav.classList.contains('open'));});
+    links.addEventListener('click',function(e){if(e.target.closest('a'))set(false);});
+    document.addEventListener('keydown',function(e){if(e.key==='Escape')set(false);});
+    document.addEventListener('click',function(e){if(nav.classList.contains('open')&&!nav.contains(e.target))set(false);});
+    window.addEventListener('resize',function(){if(window.innerWidth>1080)set(false);});
+  }
+  // FAQ: one open at a time
+  var items=[].slice.call(document.querySelectorAll('.faq-item'));
+  items.forEach(function(d){d.addEventListener('toggle',function(){if(d.open)items.forEach(function(o){if(o!==d)o.open=false;});});});
+  // active nav link
+  var map={};[].slice.call(document.querySelectorAll('.nav-links a[href^="#"]:not(.btn)')).forEach(function(a){map[a.getAttribute('href').slice(1)]=a;});
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting&&map[en.target.id]){for(var k in map)map[k].classList.remove('active');map[en.target.id].classList.add('active');}});},{rootMargin:'-45% 0px -50% 0px'});
+    Object.keys(map).forEach(function(id){var s=document.getElementById(id);if(s)io.observe(s);});
+    var rv=[].slice.call(document.querySelectorAll('.card,.step,.faq-item,.split-art,.split-copy,.band'));
+    var io2=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io2.unobserve(en.target);}});},{rootMargin:'0px 0px -8% 0px'});
+    rv.forEach(function(el){if(el.getBoundingClientRect().top>window.innerHeight){el.classList.add('rv');io2.observe(el);}});
+  }
+})();
+(function(){
   var form=document.getElementById('pilot-form'); if(!form) return;
   var msg=document.getElementById('form-msg');
   var TO='Aurasyncmedical@gmail.com';
@@ -31,7 +54,7 @@
     Promise.all([a,b]).then(function(res){
       window.__pilot={email:res[0],store:res[1]};
       if(res[0]||res[1]){form.classList.add('done');msg.className='form-msg';msg.textContent='Thanks, we\u2019ll be in touch.';return;}
-      btn.disabled=false;btn.textContent='Request a pilot';msg.className='form-msg err';
+      btn.disabled=false;btn.textContent='Request a Free Pilot';msg.className='form-msg err';
       msg.innerHTML='';msg.appendChild(document.createTextNode('That didn\u2019t go through. '));
       var l=document.createElement('a');l.href=mailto(d);l.textContent='Send it by email instead';msg.appendChild(l);
     });

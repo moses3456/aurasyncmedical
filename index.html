@@ -3,264 +3,372 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>AuraSync Medical — AuraCart, the smart supply cart for nursing rounds</title>
-<meta name="description" content="AuraCart is a mobile smart supply cart that travels with nurses on rounds, keeps track of its own stock and expiry dates, and alerts supply teams before a stockout or waste. Free 12-week pilot for select nursing units.">
+<title>AuraSync Medical | Smart supply cart for nursing teams</title>
+<meta name="description" content="AuraSync Medical builds AuraCart, a smart mobile supply cart for nursing rounds, designed to help nurses spend less time searching for supplies. Apply for a free 12-week pilot.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="AuraSync Medical">
-<meta property="og:title" content="AuraSync Medical — AuraCart, the smart supply cart for nursing rounds">
-<meta property="og:description" content="A smart supply cart that travels with nurses room to room and keeps track of its own stock. Free 12-week pilot for select nursing units.">
-<meta property="og:url" content="https://aurasyncmedical.sites.tab.bot/">
+<meta property="og:title" content="AuraSync Medical | Smart supply cart for nursing teams">
+<meta property="og:description" content="A smart mobile supply cart for nursing rounds. Free 12-week pilot for selected nursing units, no upfront cost.">
+<meta property="og:url" content="https://aurasyncmedical.com/">
 <meta property="og:image" content="https://aurasyncmedical.sites.tab.bot/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="AuraCart, the smart supply cart for nursing rounds">
+<meta property="og:image:alt" content="AuraSync Medical, smart supply cart for nursing teams">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#0b2540">
+<meta name="theme-color" content="#0B2A4A">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="nav">
- <div class="wrap">
-  <a href="#top" class="logo" aria-label="AuraSync Medical home"><span class="logo-mark"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2dd4bf" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12h4l2.5-6 4 12 2.5-6H21"/></svg></span><span>AuraSync <b>Medical</b></span></a>
-  <a class="btn btn-p" href="#pilot">Request a pilot</a>
+<header class="nav" id="nav">
+ <div class="wrap nav-row">
+  <a href="#top" class="logo" aria-label="AuraSync Medical home"><svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><rect width="40" height="40" rx="10" fill="#0B2A4A"/><path d="M8 12h3.2l1.6 3.2" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><rect x="12.4" y="15" width="19.6" height="13.2" rx="2.6" fill="none" stroke="#fff" stroke-width="2.4"/><circle cx="16.4" cy="32.2" r="2.1" fill="#fff"/><circle cx="28" cy="32.2" r="2.1" fill="#fff"/><path d="M22.2 17.9v7.4M18.5 21.6h7.4" stroke="#2EC4B6" stroke-width="2.8" stroke-linecap="round"/></svg><span class="logo-txt">AuraSync<b>Medical</b></span></a>
+  <nav class="nav-links" id="nav-links" aria-label="Main">
+    <a href="#solution">Solution</a>
+    <a href="#how">How the Pilot Works</a>
+    <a href="#benefits">Benefits</a>
+    <a href="#hospitals">For Hospitals</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+    <a class="btn btn-p nav-cta-m" href="#contact">Request a Pilot</a>
+  </nav>
+  <a class="btn btn-p nav-cta" href="#contact">Request a Pilot</a>
+  <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
  </div>
 </header>
 <main id="main">
+
 <section class="hero" id="top">
  <div class="wrap hero-grid">
-  <div>
-   <span class="pill"><i></i>Free 12-week pilot · select nursing units</span>
-   <h1>The smart supply cart for <em>nursing rounds</em></h1>
-   <p class="lead">A supply cart that knows what's inside it. AuraCart travels with your nurses from room to room, keeps track of its own stock and expiration dates, and lets your supply team know what to restock before it runs out.</p>
-   <div class="ctas">
-    <a class="btn btn-p" href="#pilot">Request a free pilot <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-    <a class="btn btn-g" href="#how">See how it works</a>
+  <div class="hero-copy">
+   <span class="eyebrow-pill"><svg class="ic ic-s" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3l7.5 3v5.5c0 4.6-3.1 8.2-7.5 9.5-4.4-1.3-7.5-4.9-7.5-9.5V6z"/><path d="M8.7 12.2l2.3 2.3 4.3-4.6"/></svg>Now accepting pilot applications</span>
+   <h1>Supplies within reach, <span class="hl">so nurses can focus on patients.</span></h1>
+   <p class="lead">AuraCart is a smart mobile supply cart for nursing rounds, designed to help nursing teams keep everyday supplies close at hand and give supply managers a clearer picture of what their units need.</p>
+   <div class="btn-row">
+    <a class="btn btn-p btn-lg" href="#contact">Request a Free Pilot <svg class="ic ic-s" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <a class="btn btn-o btn-lg" href="#how">How it works</a>
    </div>
-   <ul class="points">
-    <li><span style="background:#2dd4bf"></span>Live stock counts</li>
-    <li><span style="background:#fbbf24"></span>Expiry alerts</li>
-    <li><span style="background:#a78bfa"></span>Room to room</li>
+   <ul class="hero-points">
+    <li><svg class="ic ic-s" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M8.3 12.3l2.5 2.5 5-5.3"/></svg>12-week pilot</li><li><svg class="ic ic-s" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M8.3 12.3l2.5 2.5 5-5.3"/></svg>No upfront cost</li><li><svg class="ic ic-s" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M8.3 12.3l2.5 2.5 5-5.3"/></svg>Setup and support included</li>
    </ul>
   </div>
-  <div class="hero-art"><svg class="cart" viewBox="0 0 520 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cart-t">
-<title id="cart-t">Illustration of the AuraCart supply cart, its screen showing stock counts and an expiring-soon alert</title>
+  <div class="hero-visual">
+   <svg class="hero-art" viewBox="0 0 560 480" role="img" aria-labelledby="ha-t"><title id="ha-t">Illustration of a nurse walking a hospital corridor with a supply cart</title>
 <defs>
-<linearGradient id="cb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#dfe9f5"/></linearGradient>
-<linearGradient id="cs" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bcd0e6"/><stop offset="1" stop-color="#9ab3cf"/></linearGradient>
-<linearGradient id="scr" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f3358"/><stop offset="1" stop-color="#071a2e"/></linearGradient>
-<linearGradient id="d1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
-<linearGradient id="d2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#818cf8"/></linearGradient>
-<linearGradient id="d3" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
-<linearGradient id="strip" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2dd4bf"/><stop offset=".5" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
-<linearGradient id="sync" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5eead4"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
-<radialGradient id="g1" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#2dd4bf" stop-opacity=".5"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/></radialGradient>
-<radialGradient id="g2" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#a78bfa" stop-opacity=".45"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+<linearGradient id="hw" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EEF4FA"/><stop offset="1" stop-color="#E2ECF5"/></linearGradient>
+<linearGradient id="hf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D5E2EE"/><stop offset="1" stop-color="#C3D5E6"/></linearGradient>
+<clipPath id="hc"><rect x="0" y="0" width="560" height="480" rx="28"/></clipPath>
 </defs>
-<circle cx="250" cy="250" r="230" fill="url(#g1)"/>
-<circle cx="420" cy="360" r="140" fill="url(#g2)"/>
-<g fill="none" stroke="#7dd3fc" stroke-opacity=".25" stroke-width="1.5" stroke-dasharray="4 8"><ellipse cx="260" cy="280" rx="235" ry="200"/></g>
-<g fill="#fde68a"><circle cx="70" cy="110" r="3"/><circle cx="470" cy="70" r="2.5"/><circle cx="488" cy="250" r="3"/><circle cx="40" cy="250" r="2"/></g>
-<path d="M60 60l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" fill="#5eead4" opacity=".8"/>
-<path d="M465 300l3 7 7 3-7 3-3 7-3-7-7-3 7-3z" fill="#f9a8d4" opacity=".9"/>
-<ellipse cx="258" cy="470" rx="175" ry="15" fill="#000" opacity=".3"/>
-<path d="M118 150 V108 a14 14 0 0 1 14-14 h40" fill="none" stroke="#9fb3c8" stroke-width="10" stroke-linecap="round"/>
-<rect x="300" y="128" width="14" height="44" rx="4" fill="#9fb3c8"/>
-<g transform="rotate(-6 308 90)">
-<rect x="218" y="18" width="184" height="130" rx="15" fill="#0a1f36" stroke="#2dd4bf" stroke-opacity=".5"/>
-<rect x="226" y="26" width="168" height="114" rx="10" fill="url(#scr)"/>
-<text x="238" y="46" font-family="Inter,sans-serif" font-size="10" font-weight="700" fill="#5eead4" letter-spacing=".5">AURACART · LIVE</text>
-<circle cx="380" cy="42" r="4" fill="#34d399"/>
-<g font-family="Inter,sans-serif" font-size="9" fill="#cfe0f0">
-<text x="238" y="66">Gloves</text><rect x="286" y="59" width="74" height="7" rx="3.5" fill="#173a5e"/><rect x="286" y="59" width="62" height="7" rx="3.5" fill="url(#d1)"/><text x="366" y="66" fill="#fff" font-weight="700">48</text>
-<text x="238" y="84">Gauze</text><rect x="286" y="77" width="74" height="7" rx="3.5" fill="#173a5e"/><rect x="286" y="77" width="18" height="7" rx="3.5" fill="#f59e0b"/><text x="366" y="84" fill="#fbbf24" font-weight="700">6</text>
-<text x="238" y="102">Pads</text><rect x="286" y="95" width="74" height="7" rx="3.5" fill="#173a5e"/><rect x="286" y="95" width="46" height="7" rx="3.5" fill="url(#d2)"/><text x="366" y="102" fill="#fff" font-weight="700">31</text>
+<g clip-path="url(#hc)">
+<rect width="560" height="480" fill="url(#hw)"/>
+<!-- corridor perspective -->
+<path d="M0 330 L210 250 L350 250 L560 330 L560 480 L0 480Z" fill="url(#hf)"/>
+<path d="M210 70 L350 70 L350 250 L210 250Z" fill="#F7FAFD"/>
+<path d="M0 0 L210 70 L210 250 L0 330Z" fill="#E6EEF6"/>
+<path d="M560 0 L350 70 L350 250 L560 330Z" fill="#DCE7F2"/>
+<path d="M0 0 L210 70 L350 70 L560 0Z" fill="#F3F7FB"/>
+<!-- ceiling lights -->
+<path d="M240 32 h80 l-6 10 h-68z" fill="#fff" opacity=".9"/><path d="M256 58 h48 l-4 6 h-40z" fill="#fff" opacity=".8"/>
+<!-- far door -->
+<rect x="255" y="140" width="50" height="110" rx="3" fill="#CFE0EE"/><rect x="263" y="150" width="34" height="28" rx="2" fill="#E9F3FA"/>
+<!-- left doors -->
+<path d="M60 70 L130 92 L130 290 L60 315Z" fill="#D4E3F0"/><path d="M72 95 L118 109 L118 160 L72 150Z" fill="#EEF5FB"/>
+<path d="M155 98 L190 108 L190 262 L155 274Z" fill="#D4E3F0"/>
+<!-- right doors / signage -->
+<path d="M430 92 L500 70 L500 315 L430 290Z" fill="#C9DBEB"/><path d="M370 108 L398 99 L398 270 L370 260Z" fill="#C9DBEB"/>
+<rect x="404" y="112" width="30" height="20" rx="4" fill="#0E9F9A"/><path d="M419 116v12M413 122h12" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>
+<!-- handrails -->
+<path d="M0 238 L210 196" stroke="#B7CCE0" stroke-width="5"/><path d="M560 238 L350 196" stroke="#B0C6DB" stroke-width="5"/>
+<!-- floor line -->
+<path d="M280 250 L280 480" stroke="#B9CDE0" stroke-width="2" stroke-dasharray="14 16"/>
+<!-- shadow -->
+<ellipse cx="300" cy="438" rx="190" ry="18" fill="#0B2A4A" opacity=".10"/>
+<!-- cart (generic) -->
+<g>
+<rect x="306" y="262" width="158" height="150" rx="14" fill="#fff" stroke="#C7D6E5" stroke-width="2"/>
+<rect x="306" y="250" width="158" height="22" rx="8" fill="#0B2A4A"/>
+<rect x="320" y="284" width="130" height="34" rx="7" fill="#F2F6FA" stroke="#D5E1EC"/><rect x="368" y="298" width="34" height="6" rx="3" fill="#9FB6CC"/>
+<rect x="320" y="326" width="130" height="34" rx="7" fill="#F2F6FA" stroke="#D5E1EC"/><rect x="368" y="340" width="34" height="6" rx="3" fill="#9FB6CC"/>
+<rect x="320" y="368" width="130" height="30" rx="7" fill="#E7F6F5" stroke="#BFE6E3"/><rect x="368" y="380" width="34" height="6" rx="3" fill="#0E9F9A"/>
+<path d="M464 268 h18 a6 6 0 0 1 6 6 v14" fill="none" stroke="#0B2A4A" stroke-width="7" stroke-linecap="round"/>
+<circle cx="330" cy="424" r="11" fill="#0B2A4A"/><circle cx="330" cy="424" r="4" fill="#9FB6CC"/>
+<circle cx="440" cy="424" r="11" fill="#0B2A4A"/><circle cx="440" cy="424" r="4" fill="#9FB6CC"/>
+<rect x="348" y="230" width="22" height="20" rx="4" fill="#E7F6F5" stroke="#9ED8D3"/><rect x="376" y="222" width="30" height="28" rx="4" fill="#fff" stroke="#C7D6E5"/><path d="M391 230v12M385 236h12" stroke="#0E9F9A" stroke-width="2.4" stroke-linecap="round"/>
 </g>
-<rect x="238" y="112" width="144" height="18" rx="9" fill="#f43f5e" opacity=".2"/>
-<circle cx="250" cy="121" r="5" fill="#fb7185"/><path d="M250 118v3.2M250 123.4v.4" stroke="#0a1f36" stroke-width="1.6" stroke-linecap="round"/>
-<text x="260" y="124.5" font-family="Inter,sans-serif" font-size="8.8" font-weight="600" fill="#fda4af">2 items expiring soon</text>
+<!-- clinician -->
+<g>
+<path d="M196 438 l8 -118 h22 l-6 118z" fill="#0F3A63"/><path d="M236 438 l-2 -118 h22 l4 118z" fill="#0F3A63"/>
+<rect x="186" y="430" width="30" height="10" rx="5" fill="#E9EFF5"/><rect x="236" y="430" width="30" height="10" rx="5" fill="#E9EFF5"/>
+<path d="M190 196 c0 -18 14 -30 40 -30 c26 0 40 12 40 30 l6 132 h-92z" fill="#2E7CC6"/>
+<path d="M218 168 l12 26 l12 -26" fill="#1F63A6"/>
+<path d="M214 178 c-4 22 -2 44 12 54" fill="none" stroke="#0B2A4A" stroke-width="3" stroke-linecap="round"/><circle cx="227" cy="234" r="6" fill="none" stroke="#0B2A4A" stroke-width="3"/>
+<rect x="244" y="214" width="16" height="22" rx="3" fill="#fff" opacity=".9"/><path d="M248 222h8M248 228h6" stroke="#2E7CC6" stroke-width="2"/>
+<path d="M270 214 c18 22 26 40 30 56" stroke="#2E7CC6" stroke-width="20" stroke-linecap="round" fill="none"/>
+<circle cx="306" cy="274" r="10" fill="#E9B98F"/>
+<path d="M192 214 c-12 28 -14 52 -8 78" stroke="#2E7CC6" stroke-width="20" stroke-linecap="round" fill="none"/>
+<circle cx="184" cy="298" r="10" fill="#E9B98F"/>
+<rect x="160" y="262" width="36" height="46" rx="4" fill="#fff" stroke="#C7D6E5" stroke-width="2"/><rect x="171" y="258" width="14" height="7" rx="2" fill="#0B2A4A"/><path d="M167 276h22M167 284h22M167 292h14" stroke="#9FB6CC" stroke-width="2.4" stroke-linecap="round"/>
+<rect x="222" y="148" width="16" height="22" rx="6" fill="#DDA77D"/>
+<circle cx="230" cy="128" r="28" fill="#E9B98F"/>
+<path d="M201 126 c0 -24 14 -36 30 -36 c18 0 30 12 30 32 c-8 -10 -20 -14 -34 -12 c-10 2 -18 8 -26 16z" fill="#1E2B3A"/>
+<path d="M200 118 c2 -22 16 -32 32 -32 c14 0 26 8 30 22 c-20 -8 -42 -6 -62 10z" fill="#0E9F9A"/>
 </g>
-<path d="M110 170 L340 160 L410 188 L180 200 Z" fill="#f4f8fc"/>
-<path d="M110 170 L180 200 L180 420 L110 392 Z" fill="url(#cs)"/>
-<path d="M180 200 L410 188 L410 404 L180 420 Z" fill="url(#cb)"/>
-<path d="M180 212 L410 200 L410 210 L180 222 Z" fill="url(#strip)"/>
-<path d="M196 236 L394 226 L394 278 L196 290 Z" fill="#f7fafd" stroke="#c7d5e3"/>
-<path d="M196 302 L394 292 L394 340 L196 352 Z" fill="#f7fafd" stroke="#c7d5e3"/>
-<path d="M196 364 L394 354 L394 394 L196 404 Z" fill="#f7fafd" stroke="#c7d5e3"/>
-<path d="M196 236 L208 235.4 L208 289.4 L196 290 Z" fill="url(#d1)"/>
-<path d="M196 302 L208 301.4 L208 351.4 L196 352 Z" fill="url(#d2)"/>
-<path d="M196 364 L208 363.4 L208 403.4 L196 404 Z" fill="url(#d3)"/>
-<rect x="268" y="252" width="56" height="7" rx="3.5" fill="#9fb3c8" transform="rotate(-2.8 296 255)"/>
-<rect x="268" y="316" width="56" height="7" rx="3.5" fill="#9fb3c8" transform="rotate(-2.8 296 319)"/>
-<rect x="268" y="376" width="56" height="7" rx="3.5" fill="#9fb3c8" transform="rotate(-2.8 296 379)"/>
-<circle cx="378" cy="240" r="4.5" fill="#34d399"/><circle cx="378" cy="306" r="4.5" fill="#f59e0b"/><circle cx="378" cy="367" r="4.5" fill="#34d399"/>
-<g transform="matrix(1 .43 0 1 0 0)"><rect x="128" y="200" width="34" height="34" rx="9" fill="#fff" opacity=".92"/><path d="M145 208v18M136 217h18" stroke="#14b8a6" stroke-width="4.5" stroke-linecap="round"/></g>
-<path d="M104 392 L180 424 L416 408 L416 420 L180 436 L104 404 Z" fill="#7f97b0"/>
-<circle cx="196" cy="450" r="16" fill="#1c3550"/><circle cx="196" cy="450" r="6" fill="#5eead4"/>
-<circle cx="392" cy="436" r="16" fill="#1c3550"/><circle cx="392" cy="436" r="6" fill="#5eead4"/>
-<circle cx="126" cy="420" r="13" fill="#162c44"/><circle cx="126" cy="420" r="5" fill="#5eead4"/>
-<rect x="188" y="428" width="16" height="10" fill="#7f97b0"/><rect x="384" y="414" width="16" height="10" fill="#7f97b0"/><rect x="119" y="402" width="14" height="10" fill="#7f97b0"/>
-<g class="spin-wrap" transform="translate(440 168)">
-<circle r="34" fill="#0b2540" stroke="url(#sync)" stroke-width="3"/>
-<g class="spin" fill="none" stroke="url(#sync)" stroke-width="4" stroke-linecap="round"><path d="M-17 -6a18 18 0 0 1 31-6"/><path d="M17 6a18 18 0 0 1 -31 6"/></g>
-<path d="M10 -18l5 7-8 1z M-10 18l-5-7 8-1z" fill="#5eead4"/>
-<path d="M-7 0l5 5 9-10" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<g class="float" transform="translate(14 322)">
-<rect width="138" height="50" rx="14" fill="#fff"/>
-<circle cx="25" cy="25" r="13" fill="#ccfbf1"/>
-<path d="M19 25l4 4 8-8" fill="none" stroke="#0d9488" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="46" y="21" font-family="Inter,sans-serif" font-size="9.5" fill="#5a6b80">Inventory</text>
-<text x="46" y="36" font-family="Inter,sans-serif" font-size="11.5" font-weight="700" fill="#0b2540">Synced live</text>
-</g>
-<g class="float f2" transform="translate(352 456)">
-<rect width="150" height="40" rx="12" fill="#fff7ed"/>
-<circle cx="20" cy="20" r="10" fill="#fdba74"/>
-<path d="M20 15v6M20 24.5v.5" stroke="#7c2d12" stroke-width="2.2" stroke-linecap="round"/>
-<text x="38" y="25" font-family="Inter,sans-serif" font-size="10.5" font-weight="700" fill="#9a3412">Restock: Gauze</text>
-</g>
-</svg></div>
+</svg>
+   <div class="float-card fc-1"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 20s-7.5-4.6-7.5-10.2A4.3 4.3 0 0112 7.3a4.3 4.3 0 017.5 2.5C19.5 15.4 12 20 12 20z"/><path d="M7.5 12h2.5l1.2-2 1.6 4 1.2-2H16.5"/></svg><div><b>Built for nursing teams</b><span>Designed around real rounds</span></div></div>
+   <div class="float-card fc-2"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/><path d="M8 14l2.2 2.2L15.5 12"/></svg><div><b>Free 12-week pilot</b><span>For selected units</span></div></div>
+  </div>
  </div>
 </section>
 
-<section id="problem" aria-labelledby="problem-h">
+<section class="trust" aria-label="Pilot highlights">
+ <div class="wrap trust-grid">
+  <div class="trust-item"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="7" r="3.2"/><path d="M5.5 20.5c.6-4 3.2-6.2 6.5-6.2s5.9 2.2 6.5 6.2"/><path d="M12 14.3v3.2M10.4 15.9h3.2"/></svg><div><b>Built for nursing teams</b><span>Shaped around how care happens</span></div></div>
+  <div class="trust-item"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/><path d="M8 14l2.2 2.2L15.5 12"/></svg><div><b>12-week free pilot</b><span>Real shifts, real feedback</span></div></div>
+  <div class="trust-item"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3.5v17M16.2 7.2c-.8-1.2-2.3-1.9-4.2-1.9-2.4 0-4 1.2-4 3.1 0 4.4 8.6 2.4 8.6 6.9 0 1.9-1.8 3.3-4.6 3.3-2 0-3.7-.8-4.5-2.2"/></svg><div><b>No upfront cost</b><span>No obligation afterward</span></div></div>
+  <div class="trust-item"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h11l-3-3M20 17H9l3 3"/></svg><div><b>Fits your workflow</b><span>Planned around your unit</span></div></div>
+ </div>
+</section>
+
+<section class="section" id="problem">
  <div class="wrap">
-  <div class="head c"><p class="eyebrow">Why AuraCart</p><h2 id="problem-h">Care stops when <span class="grad">supplies go missing</span></h2></div>
-  <div class="ps">
-   <article class="card prob">
-    <div class="ill"><svg viewBox="0 0 160 120" aria-hidden="true" focusable="false">
-<defs><linearGradient id="pb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fecdd3"/><stop offset="1" stop-color="#fde68a"/></linearGradient></defs>
-<circle cx="80" cy="60" r="56" fill="url(#pb)" opacity=".55"/>
-<rect x="30" y="34" width="70" height="58" rx="6" fill="#fff" stroke="#fda4af" stroke-width="2"/>
-<path d="M30 54h70M30 74h70" stroke="#fecdd3" stroke-width="2"/>
-<rect x="38" y="40" width="14" height="10" rx="2" fill="#fbcfe8"/><rect x="56" y="40" width="10" height="10" rx="2" fill="#fde68a"/>
-<rect x="38" y="80" width="10" height="9" rx="2" fill="#fde68a"/>
-<path d="M66 64h22" stroke="#fda4af" stroke-width="2" stroke-dasharray="3 4" stroke-linecap="round"/>
-<circle cx="104" cy="70" r="20" fill="#fff" stroke="#e11d48" stroke-width="5"/>
-<path d="M118 84l16 16" stroke="#e11d48" stroke-width="7" stroke-linecap="round"/>
-<path d="M99 64a5.5 5.5 0 1 1 7 5.3c-1.4.5-2 1.3-2 2.7v1" fill="none" stroke="#be123c" stroke-width="3" stroke-linecap="round"/><circle cx="104" cy="79" r="1.9" fill="#be123c"/>
-<g transform="translate(120 20)"><circle r="13" fill="#fff" stroke="#f59e0b" stroke-width="3"/><path d="M0-7v7l5 3" stroke="#b45309" stroke-width="2.6" fill="none" stroke-linecap="round"/></g>
-</svg></div>
-    <span class="label rose">The problem</span>
-    <h3>Searching instead of caring</h3>
-    <p>Nurses routinely leave patient care to search for basic supplies, while hospitals lose significant value every year to expired, overstocked, or missing inventory.</p>
-    <p>Today, most supply tracking is manual, static, and disconnected from where care actually happens.</p>
+  <div class="sec-head center">
+   <span class="eyebrow">The problem</span>
+   <h2>Every minute spent searching is a minute away from patients</h2>
+   <p>Across many hospitals, keeping the right supplies in the right place is still largely a manual job. The result is familiar to every nursing unit.</p>
+  </div>
+  <div class="grid-3">
+   <article class="card">
+    <div class="card-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/><path d="M11 8.5v5M8.5 11h5"/></svg></div>
+    <h3>Time lost searching</h3>
+    <p>Nurses often step away from the bedside to look for gloves, dressings, and other everyday items in supply rooms down the hall.</p>
    </article>
-   <article class="card sol" id="solution">
-    <div class="ill"><svg viewBox="0 0 160 120" aria-hidden="true" focusable="false">
-<defs><linearGradient id="sb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#818cf8"/></linearGradient>
-<linearGradient id="sc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5eead4"/><stop offset="1" stop-color="#7dd3fc"/></linearGradient></defs>
-<circle cx="80" cy="60" r="56" fill="url(#sb)" opacity=".28"/>
-<rect x="44" y="18" width="56" height="34" rx="6" fill="#0a1f36" stroke="#5eead4" stroke-width="1.5"/>
-<rect x="52" y="27" width="34" height="4" rx="2" fill="url(#sc)"/><rect x="52" y="35" width="14" height="4" rx="2" fill="#f59e0b"/><rect x="52" y="43" width="26" height="4" rx="2" fill="#a78bfa"/>
-<rect x="68" y="52" width="6" height="8" fill="#9fb3c8"/>
-<rect x="40" y="60" width="66" height="40" rx="6" fill="#fff"/>
-<rect x="40" y="60" width="66" height="5" rx="2" fill="url(#sc)"/>
-<rect x="46" y="70" width="54" height="11" rx="3" fill="#e0f2fe"/><rect x="46" y="85" width="54" height="11" rx="3" fill="#ede9fe"/>
-<rect x="66" y="74" width="14" height="3" rx="1.5" fill="#7dd3fc"/><rect x="66" y="89" width="14" height="3" rx="1.5" fill="#a78bfa"/>
-<circle cx="50" cy="106" r="5" fill="#1c3550"/><circle cx="96" cy="106" r="5" fill="#1c3550"/>
-<g transform="translate(118 40)"><circle r="16" fill="#34d399"/><path d="M-7 0l5 5 9-10" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></g>
-<path d="M118 66l3 7 7 3-7 3-3 7-3-7-7-3 7-3z" fill="#fde68a"/>
-</svg></div>
-    <span class="label teal">The solution</span>
-    <h3>Supplies that keep up with your rounds</h3>
-    <p>AuraCart is a mobile smart supply cart that travels with nurses from room to room. It keeps track of its own inventory in real time and shows stock levels and expiration dates right on the cart.</p>
-    <p>Nurses always know what they have. Supply teams always know what needs restocking, before it becomes a stockout or waste.</p>
+   <article class="card">
+    <div class="card-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 8L12 3.5 20.5 8v8L12 20.5 3.5 16z"/><path d="M3.5 8L12 12.5 20.5 8M12 12.5v8"/></svg></div>
+    <h3>Unexpected stockouts</h3>
+    <p>When an item runs out at the wrong moment, care slows down and teams scramble to borrow from other units.</p>
+   </article>
+   <article class="card">
+    <div class="card-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4.5 7h15M9.5 7V4.5h5V7M6.5 7l1 13h9l1-13"/><path d="M10 11v5.5M14 11v5.5"/></svg></div>
+    <h3>Waste and overstock</h3>
+    <p>Without a clear picture of what is used, units tend to over-order to stay safe, and supplies can expire unused on the shelf.</p>
    </article>
   </div>
  </div>
 </section>
 
-<section class="how" id="how" aria-labelledby="how-h">
- <div class="wrap">
-  <div class="head c"><p class="eyebrow">How it works</p><h2 id="how-h">Three steps. <span class="grad">No clipboards.</span></h2></div>
-  <ol class="steps">
-   <li class="step s1"><div class="step-top"><div class="ill"><svg viewBox="0 0 120 100" aria-hidden="true" focusable="false">
-<circle cx="60" cy="52" r="44" fill="#ccfbf1"/>
-<path d="M60 8v20" stroke="#0d9488" stroke-width="5" stroke-linecap="round"/><path d="M50 20l10 10 10-10" fill="none" stroke="#0d9488" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="38" y="34" width="20" height="16" rx="3" fill="#38bdf8"/><rect x="60" y="38" width="22" height="12" rx="3" fill="#a78bfa"/><rect x="47" y="24" width="0" height="0"/>
-<rect x="22" y="50" width="76" height="34" rx="6" fill="#fff" stroke="#14b8a6" stroke-width="3"/>
-<rect x="22" y="50" width="76" height="8" rx="3" fill="#2dd4bf"/>
-<rect x="48" y="68" width="24" height="5" rx="2.5" fill="#99f6e4"/>
-</svg></div><span class="num" aria-hidden="true">01</span></div><h3>Stock it.</h3><p>Load the cart with the supplies your unit uses every day.</p></li>
-   <li class="step s2"><div class="step-top"><div class="ill"><svg viewBox="0 0 120 100" aria-hidden="true" focusable="false">
-<defs><linearGradient id="s2g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#818cf8"/></linearGradient></defs>
-<circle cx="60" cy="52" r="44" fill="#e0f2fe"/>
-<rect x="20" y="22" width="66" height="50" rx="8" fill="#0b2540"/>
-<rect x="30" y="33" width="38" height="5" rx="2.5" fill="url(#s2g)"/><rect x="30" y="44" width="16" height="5" rx="2.5" fill="#f59e0b"/><rect x="30" y="55" width="28" height="5" rx="2.5" fill="#2dd4bf"/>
-<rect x="49" y="72" width="8" height="10" fill="#7dd3fc"/><rect x="38" y="82" width="30" height="5" rx="2.5" fill="#7dd3fc"/>
-<g transform="translate(88 64)"><circle r="18" fill="#fff" stroke="url(#s2g)" stroke-width="3"/>
-<g fill="none" stroke="#0284c7" stroke-width="3" stroke-linecap="round"><path d="M-9-3a10 10 0 0 1 17-4"/><path d="M9 3a10 10 0 0 1-17 4"/></g>
-<path d="M6-12l3 6-6 0z M-6 12l-3-6 6 0z" fill="#0284c7"/></g>
-</svg></div><span class="num" aria-hidden="true">02</span></div><h3>It tracks itself.</h3><p>AuraCart keeps its own count as items are used, and shows what's on hand and what's expiring soon.</p></li>
-   <li class="step s3"><div class="step-top"><div class="ill"><svg viewBox="0 0 120 100" aria-hidden="true" focusable="false">
-<circle cx="60" cy="52" r="44" fill="#ede9fe"/>
-<rect x="38" y="12" width="44" height="80" rx="9" fill="#fff" stroke="#8b5cf6" stroke-width="3"/>
-<rect x="53" y="17" width="14" height="3" rx="1.5" fill="#c4b5fd"/>
-<rect x="44" y="30" width="32" height="14" rx="4" fill="#fef3c7"/><circle cx="50" cy="37" r="3" fill="#f59e0b"/><rect x="56" y="35" width="16" height="3" rx="1.5" fill="#fcd34d"/>
-<rect x="44" y="49" width="32" height="14" rx="4" fill="#ffe4e6"/><circle cx="50" cy="56" r="3" fill="#fb7185"/><rect x="56" y="54" width="16" height="3" rx="1.5" fill="#fda4af"/>
-<g transform="translate(86 26)"><circle r="15" fill="#8b5cf6"/><path d="M-6 4h12l-2-3v-4a4 4 0 0 0-8 0v4z" fill="#fff"/><circle cy="7" r="2" fill="#fff"/></g>
-<circle cx="97" cy="16" r="5" fill="#fb7185" stroke="#fff" stroke-width="2"/>
-</svg></div><span class="num" aria-hidden="true">03</span></div><h3>Your team gets alerts.</h3><p>Supply staff hear about low stock and upcoming expirations in time to restock.</p></li>
-  </ol>
- </div>
-</section>
-
-<section id="glance" aria-labelledby="glance-h">
- <div class="wrap">
-  <div class="head c"><p class="eyebrow">At a glance</p><h2 id="glance-h">What AuraCart does <span class="grad">for your unit</span></h2></div>
-  <ul class="bens"><li class="ben"><span class="ic c1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 8l8-4 8 4-8 4z"/><path d="M4 8v8l8 4 8-4V8"/><path d="M12 12v8"/></svg></span><div><h3>Everyday supplies, covered</h3><p>Gloves, gauze, pads, and other routine consumables.</p></div></li><li class="ben"><span class="ic c2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M7 12V9M11 12V7M15 12v-2"/><path d="M8 20h8M12 16v4"/></svg></span><div><h3>Live stock, at a glance</h3><p>Nurses see what's on the cart without counting or guessing.</p></div></li><li class="ben"><span class="ic c3"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="14" height="14" rx="2"/><path d="M3 9h14M7 3v4M13 3v4"/><circle cx="18" cy="17" r="4"/><path d="M18 15.5V17l1 1"/></svg></span><div><h3>Expiry flagged early</h3><p>Items nearing their expiration date are flagged before they go to waste.</p></div></li><li class="ben"><span class="ic c4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 17h2m14 0h2"/><rect x="5" y="7" width="12" height="9" rx="1.5"/><circle cx="7.5" cy="19" r="1.5"/><circle cx="15.5" cy="19" r="1.5"/><path d="M17 9h2.5"/><path d="M9 11.5h4M11 9.5v4"/></svg></span><div><h3>Built for rounds</h3><p>Moves with your nurses from room to room, right where care happens.</p></div></li><li class="ben"><span class="ic c5"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4z"/><path d="M10 20a2 2 0 0 0 4 0"/></svg></span><div><h3>Restock on time</h3><p>Low-stock and upcoming-expiration alerts go to your supply chain staff.</p></div></li><li class="ben"><span class="ic c6"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 20V4"/><path d="M4 20h16"/><rect x="7" y="12" width="3" height="5"/><rect x="12" y="8" width="3" height="9"/><rect x="17" y="10" width="3" height="7"/></svg></span><div><h3>Weekly reports</h3><p>Usage and inventory reports help your supply team cut overstocking.</p></div></li></ul>
- </div>
-</section>
-
-<section class="who" id="who" aria-labelledby="who-h">
- <div class="wrap">
-  <div class="head c"><p class="eyebrow">Who it's for</p><h2 id="who-h">Made for the teams who <span class="grad">keep care moving</span></h2></div>
-  <ul class="whos">
-   <li class="who-card"><svg viewBox="0 0 80 80" aria-hidden="true" focusable="false"><circle cx="40" cy="40" r="36" fill="#ccfbf1"/><rect x="18" y="26" width="44" height="38" rx="3" fill="#fff" stroke="#14b8a6" stroke-width="2.5"/><rect x="30" y="16" width="20" height="14" rx="2" fill="#14b8a6"/><path d="M40 18.5v9M35.5 23h9" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/><g fill="#7dd3fc"><rect x="23" y="34" width="7" height="6" rx="1"/><rect x="50" y="34" width="7" height="6" rx="1"/><rect x="23" y="45" width="7" height="6" rx="1"/><rect x="50" y="45" width="7" height="6" rx="1"/></g><rect x="35" y="48" width="10" height="16" rx="1.5" fill="#0f766e"/></svg><h3>Hospital nursing units</h3></li>
-   <li class="who-card"><svg viewBox="0 0 80 80" aria-hidden="true" focusable="false"><circle cx="40" cy="40" r="36" fill="#e0f2fe"/><path d="M26 18v14a12 12 0 0 0 24 0V18" fill="none" stroke="#0284c7" stroke-width="3.5" stroke-linecap="round"/><circle cx="26" cy="18" r="3" fill="#0284c7"/><circle cx="50" cy="18" r="3" fill="#0284c7"/><path d="M38 44v6a10 10 0 0 0 20 0v-6" fill="none" stroke="#38bdf8" stroke-width="3.5" stroke-linecap="round"/><circle cx="58" cy="40" r="6" fill="#fff" stroke="#818cf8" stroke-width="3.5"/></svg><h3>Outpatient clinics</h3></li>
-   <li class="who-card"><svg viewBox="0 0 80 80" aria-hidden="true" focusable="false"><circle cx="40" cy="40" r="36" fill="#fce7f3"/><path d="M16 38l24-20 24 20" fill="none" stroke="#db2777" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 34v28h36V34" fill="#fff" stroke="#db2777" stroke-width="3"/><path d="M40 56s-10-6-10-12a5 5 0 0 1 10-2 5 5 0 0 1 10 2c0 6-10 12-10 12z" fill="#f472b6"/></svg><h3>Long-term care facilities</h3></li>
-  </ul>
-  <p class="who-note">For teams looking to reduce supply waste, cut the time nurses spend searching for materials, and give supply chain teams better visibility.</p>
- </div>
-</section>
-
-<section class="pilot" id="pilot" aria-labelledby="pilot-h">
- <div class="wrap">
-  <div class="pilot-box">
-   <div class="pilot-grid">
-    <div class="pilot-copy">
-     <span class="pill"><i></i>Get in touch</span>
-     <h2 id="pilot-h">Request a free 12&#8209;week pilot</h2>
-     <p>AuraSync Medical is offering a free 12&#8209;week pilot program to select nursing units. Tell us a little about your facility and we'll be in touch.</p>
-     <a class="mail" href="mailto:Aurasyncmedical@gmail.com?subject=AuraCart%20pilot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>Aurasyncmedical@gmail.com</a>
-    </div>
-    <form class="form" id="pilot-form" action="https://formsubmit.co/aurasyncmedical@gmail.com" method="post" novalidate>
-     <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" autocomplete="name" required maxlength="120"></div>
-     <div class="field"><label for="f-facility">Facility</label><input id="f-facility" name="facility" autocomplete="organization" required maxlength="160"></div>
-     <div class="field"><label for="f-role">Role <span class="opt">(optional)</span></label><input id="f-role" name="role" autocomplete="organization-title" placeholder="e.g. Nurse manager" maxlength="120"></div>
-     <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" required maxlength="200"></div>
-     <div class="field"><label for="f-phone">Phone <span class="opt">(optional)</span></label><input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" maxlength="40"></div>
-     <div class="hp" aria-hidden="true"><label for="f-web">Website</label><input id="f-web" name="website" tabindex="-1" autocomplete="off"></div>
-     <button class="btn btn-p btn-full" type="submit">Request a pilot</button>
-     <p class="form-msg" id="form-msg" role="status" aria-live="polite"></p>
-    </form>
+<section class="section alt" id="solution">
+ <div class="wrap split">
+  <div class="split-art"><svg class="sol-art" viewBox="0 0 520 400" role="img" aria-labelledby="sa-t"><title id="sa-t">Illustration of a nursing station with a supply cart and clipboard</title>
+<rect width="520" height="400" rx="26" fill="#F1F6FB"/>
+<rect x="0" y="300" width="520" height="100" fill="#E2ECF5"/><rect y="296" width="520" height="6" fill="#D2E0EC"/>
+<rect x="40" y="56" width="180" height="96" rx="10" fill="#fff" stroke="#D5E1EC" stroke-width="2"/>
+<path d="M62 104 h30 l10 -22 l16 46 l12 -24 h18 l8 -10 h26" fill="none" stroke="#0E9F9A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="244" y="56" width="110" height="96" rx="10" fill="#fff" stroke="#D5E1EC" stroke-width="2"/><rect x="268" y="76" width="62" height="56" rx="8" fill="#0B2A4A"/><path d="M299 88v32M283 104h32" stroke="#2EC4B6" stroke-width="6" stroke-linecap="round"/>
+<rect x="378" y="56" width="104" height="96" rx="10" fill="#fff" stroke="#D5E1EC" stroke-width="2"/><circle cx="430" cy="104" r="30" fill="none" stroke="#9FB6CC" stroke-width="4"/><path d="M430 84v20l14 8" stroke="#0B2A4A" stroke-width="4" stroke-linecap="round" fill="none"/>
+<!-- desk -->
+<rect x="30" y="206" width="250" height="100" rx="12" fill="#0B2A4A"/><rect x="30" y="196" width="250" height="20" rx="8" fill="#163E66"/>
+<rect x="60" y="226" width="80" height="12" rx="6" fill="#2E7CC6" opacity=".6"/>
+<!-- clipboard -->
+<g transform="rotate(-8 180 160)"><rect x="150" y="128" width="64" height="82" rx="8" fill="#fff" stroke="#C7D6E5" stroke-width="2"/><rect x="168" y="120" width="28" height="14" rx="4" fill="#0E9F9A"/><path d="M164 154h36M164 166h36M164 178h24" stroke="#9FB6CC" stroke-width="3" stroke-linecap="round"/><path d="M164 192l6 6 12-12" stroke="#0E9F9A" stroke-width="3.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<!-- cart -->
+<ellipse cx="392" cy="364" rx="100" ry="12" fill="#0B2A4A" opacity=".10"/>
+<rect x="316" y="198" width="150" height="150" rx="14" fill="#fff" stroke="#C7D6E5" stroke-width="2"/>
+<rect x="316" y="186" width="150" height="22" rx="8" fill="#0B2A4A"/>
+<rect x="330" y="220" width="122" height="34" rx="7" fill="#F2F6FA" stroke="#D5E1EC"/><rect x="374" y="234" width="34" height="6" rx="3" fill="#9FB6CC"/>
+<rect x="330" y="262" width="122" height="34" rx="7" fill="#F2F6FA" stroke="#D5E1EC"/><rect x="374" y="276" width="34" height="6" rx="3" fill="#9FB6CC"/>
+<rect x="330" y="304" width="122" height="30" rx="7" fill="#E7F6F5" stroke="#BFE6E3"/><rect x="374" y="316" width="34" height="6" rx="3" fill="#0E9F9A"/>
+<circle cx="340" cy="360" r="10" fill="#0B2A4A"/><circle cx="442" cy="360" r="10" fill="#0B2A4A"/>
+<path d="M466 204 h16 a6 6 0 0 1 6 6 v12" fill="none" stroke="#0B2A4A" stroke-width="7" stroke-linecap="round"/>
+<!-- badge -->
+<rect x="356" y="148" width="116" height="30" rx="15" fill="#fff" stroke="#BFE6E3"/><circle cx="374" cy="163" r="7" fill="#0E9F9A"/><path d="M370.5 163l2.5 2.5 4.5-5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="388" y="159" width="70" height="8" rx="4" fill="#B5C7D8"/>
+</svg></div>
+  <div class="split-copy">
+   <span class="eyebrow">Our solution</span>
+   <h2>AuraCart: a smart supply cart that moves with your rounds</h2>
+   <p>AuraCart is a mobile supply cart built for nursing rounds. It travels with nurses from room to room, so the supplies they use most are right where care happens.</p>
+   <p>Behind the scenes, AuraCart is designed to help supply teams see what each unit needs and restock before it becomes a problem.</p>
+   <ul class="checks">
+    <li><svg class="ic ic-s" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M8.3 12.3l2.5 2.5 5-5.3"/></svg><span><b>Close at hand.</b> Everyday supplies travel with the nurse, not down the hall.</span></li>
+    <li><svg class="ic ic-s" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M8.3 12.3l2.5 2.5 5-5.3"/></svg><span><b>Clear visibility.</b> Aims to give supply managers a clearer view of unit needs.</span></li>
+    <li><svg class="ic ic-s" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M8.3 12.3l2.5 2.5 5-5.3"/></svg><span><b>Simple to use.</b> Designed to feel familiar from the first shift.</span></li>
+   </ul>
+   <div class="btn-row">
+    <a class="btn btn-p" href="#contact">Request a Free Pilot</a>
+    <a class="btn btn-t" href="#benefits">See the benefits <svg class="ic ic-s" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
    </div>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="how">
+ <span id="pilot-steps" class="anchor"></span>
+ <div class="wrap">
+  <div class="sec-head center">
+   <span class="eyebrow">How the pilot works</span>
+   <h2>A simple 12-week pilot, start to finish</h2>
+   <p>We keep the pilot light for your team. Here is what the 12 weeks look like.</p>
+  </div>
+  <ol class="timeline">
+   <li class="step">
+    <div class="step-num">1</div>
+    <div class="step-body"><span class="step-when">Week 0</span><h3>Introductory call</h3><p>We learn about your unit, your rounds, and your goals, and agree together on what a successful pilot looks like.</p></div>
+   </li>
+   <li class="step">
+    <div class="step-num">2</div>
+    <div class="step-body"><span class="step-when">Week 1</span><h3>Setup and onboarding</h3><p>We deliver and set up AuraCart on your unit and give your nurses a short walkthrough. No IT project required.</p></div>
+   </li>
+   <li class="step">
+    <div class="step-num">3</div>
+    <div class="step-body"><span class="step-when">Weeks 2 to 11</span><h3>Use it on real shifts</h3><p>Your team uses the cart during normal rounds. We check in regularly, gather feedback, and adjust along the way.</p></div>
+   </li>
+   <li class="step">
+    <div class="step-num">4</div>
+    <div class="step-body"><span class="step-when">Week 12</span><h3>Review together</h3><p>We go over the pilot with your team and leadership, share what we learned, and decide on next steps together.</p></div>
+   </li>
+  </ol>
+  <div class="center mt"><a class="btn btn-p btn-lg" href="#contact">Apply for the Pilot <svg class="ic ic-s" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+ </div>
+</section>
+
+<section class="section alt" id="benefits">
+ <div class="wrap">
+  <div class="sec-head center">
+   <span class="eyebrow">Benefits</span>
+   <h2>Designed to help everyone who keeps care moving</h2>
+   <p>AuraCart is being built with three groups in mind. Here is what it aims to do for each.</p>
+  </div>
+  <div class="grid-3">
+   <article class="card card-b">
+    <div class="card-top"><div class="card-ic lg"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="7" r="3.2"/><path d="M5.5 20.5c.6-4 3.2-6.2 6.5-6.2s5.9 2.2 6.5 6.2"/><path d="M12 14.3v3.2M10.4 15.9h3.2"/></svg></div><h3>For nurses</h3></div>
+    <ul class="mini">
+     <li><svg class="ic ic-s" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M8.3 12.3l2.5 2.5 5-5.3"/></svg>Designed to cut time spent looking for supplies</li>
+     <li><svg class="ic ic-s" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M8.3 12.3l2.5 2.5 5-5.3"/></svg>Aims to keep everyday items within arm’s reach</li>
+     <li><svg class="ic ic-s" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M8.3 12.3l2.5 2.5 5-5.3"/></svg>Meant to support more time at the bedside</li>
+    </ul>
+   </article>
+   <article class="card card-b">
+    <div class="card-top"><div class="card-ic lg"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="4.5" width="14" height="16" rx="2"/><path d="M9 4.5V3h6v1.5M9 3.5h6"/><path d="M8.5 10.5h7M8.5 14h7M8.5 17.5h4"/></svg></div><h3>For supply managers</h3></div>
+    <ul class="mini">
+     <li><svg class="ic ic-s" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M8.3 12.3l2.5 2.5 5-5.3"/></svg>Aims to give a clearer view of what units use</li>
+     <li><svg class="ic ic-s" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M8.3 12.3l2.5 2.5 5-5.3"/></svg>Designed to help restock before items run out</li>
+     <li><svg class="ic ic-s" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M8.3 12.3l2.5 2.5 5-5.3"/></svg>Intended to help reduce overstock and waste</li>
+    </ul>
+   </article>
+   <article class="card card-b">
+    <div class="card-top"><div class="card-ic lg"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 20V4M4 20h16"/><path d="M8 16v-4M12 16V8M16 16v-6"/></svg></div><h3>For administrators</h3></div>
+    <ul class="mini">
+     <li><svg class="ic ic-s" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M8.3 12.3l2.5 2.5 5-5.3"/></svg>Designed to support smarter supply spending</li>
+     <li><svg class="ic ic-s" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M8.3 12.3l2.5 2.5 5-5.3"/></svg>Aims to help nursing time go to patient care</li>
+     <li><svg class="ic ic-s" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M8.3 12.3l2.5 2.5 5-5.3"/></svg>A low-risk way to evaluate a new approach</li>
+    </ul>
+   </article>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="hospitals">
+ <div class="wrap">
+  <div class="sec-head center">
+   <span class="eyebrow">For hospitals</span>
+   <h2>Who the pilot is for</h2>
+   <p>We are looking for care teams that want to rethink how supplies reach the point of care.</p>
+  </div>
+  <div class="grid-3">
+   <article class="card who">
+    <div class="card-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 20.5h16M6 20.5V5.5A1.5 1.5 0 017.5 4h9A1.5 1.5 0 0118 5.5v15"/><path d="M10.5 20.5v-4h3v4"/><path d="M12 7v4M10 9h4"/></svg></div><h3>Hospital nursing units</h3><p>Medical-surgical, step-down, and other inpatient units where nurses do frequent rounds.</p>
+   </article>
+   <article class="card who">
+    <div class="card-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 20.5h17M5 20.5V10l7-5 7 5v10.5"/><path d="M12 10.5v5M9.5 13h5"/></svg></div><h3>Outpatient clinics</h3><p>Busy clinics that want everyday supplies ready in every exam room, without extra trips.</p>
+   </article>
+   <article class="card who">
+    <div class="card-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 11L12 4l8.5 7"/><path d="M6 9.5v11h12v-11"/><path d="M10 20.5v-5h4v5"/></svg></div><h3>Long-term care facilities</h3><p>Care teams looking after many residents who need supplies organized and close by.</p>
+   </article>
+  </div>
+  <div class="band">
+   <div class="band-copy">
+    <h3>Is your unit a good fit?</h3>
+    <p>If your team does regular rounds and wants to spend less time on supply runs, we would love to hear from you.</p>
+   </div>
+   <div class="btn-row">
+    <a class="btn btn-w" href="#contact">Request a Free Pilot</a>
+    <a class="btn btn-ow" href="#faq">Read the FAQ</a>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="section alt" id="faq">
+ <div class="wrap faq-wrap">
+  <div class="sec-head">
+   <span class="eyebrow">FAQ</span>
+   <h2>Questions about the pilot</h2>
+   <p>Can’t find what you are looking for? <a href="mailto:Aurasyncmedical@gmail.com">Email us</a> and we will get back to you.</p>
+  </div>
+  <div class="faq-list">
+   <details class="faq-item" open><summary><span>Does the pilot cost anything?</span><i class="faq-x" aria-hidden="true"></i></summary><div class="faq-a"><p>No. The 12-week pilot is free for selected nursing units. There is no upfront cost and no obligation to continue afterward.</p></div></details>
+   <details class="faq-item"><summary><span>How long does the pilot last?</span><i class="faq-x" aria-hidden="true"></i></summary><div class="faq-a"><p>The pilot runs for 12 weeks. That gives your team enough time to settle into a routine with the cart during real shifts and form a clear view of how it fits your unit.</p></div></details>
+   <details class="faq-item"><summary><span>What do we need to provide?</span><i class="faq-x" aria-hidden="true"></i></summary><div class="faq-a"><p>A nursing unit willing to take part, a main point of contact (often the nurse manager), and a short check-in with your team from time to time. We handle setup and support throughout.</p></div></details>
+   <details class="faq-item"><summary><span>Will it disrupt our current workflow?</span><i class="faq-x" aria-hidden="true"></i></summary><div class="faq-a"><p>It is designed not to. The cart is meant to fit into the rounds your nurses already do, and we plan the setup around your unit’s schedule.</p></div></details>
+   <details class="faq-item"><summary><span>How is our information handled?</span><i class="faq-x" aria-hidden="true"></i></summary><div class="faq-a"><p>Information shared with us during the pilot is used only to run and review the pilot. We do not sell it, and we can work within your facility’s own privacy and security policies. Patient information is not part of the pilot.</p></div></details>
+   <details class="faq-item"><summary><span>Which facilities can apply?</span><i class="faq-x" aria-hidden="true"></i></summary><div class="faq-a"><p>Hospital nursing units, outpatient clinics, and long-term care facilities are all welcome to apply. We select pilot sites based on fit and availability.</p></div></details>
+   <details class="faq-item"><summary><span>What happens after the 12 weeks?</span><i class="faq-x" aria-hidden="true"></i></summary><div class="faq-a"><p>We review the pilot together with your team. If it is a good fit, we will discuss next steps. If not, we collect the cart and there is nothing further to do.</p></div></details>
+   <details class="faq-item"><summary><span>How do we get started?</span><i class="faq-x" aria-hidden="true"></i></summary><div class="faq-a"><p>Fill in the pilot request form below or email us at Aurasyncmedical@gmail.com. We will reply to set up a short introductory call.</p></div></details>
+  </div>
+ </div>
+</section>
+
+<section class="section contact" id="contact">
+ <span id="pilot" class="anchor"></span>
+ <div class="wrap contact-grid">
+  <div class="contact-copy">
+   <span class="eyebrow light">Contact</span>
+   <h2>Request a free 12-week pilot</h2>
+   <p>Tell us a little about your facility and we will be in touch to set up a short introductory call.</p>
+   <ul class="contact-list">
+    <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/><path d="M8 14l2.2 2.2L15.5 12"/></svg><span><b>12 weeks, free</b>No upfront cost, no obligation</span></li>
+    <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="9" cy="8" r="2.8"/><circle cx="16.5" cy="9" r="2.2"/><path d="M3.5 19.5c.5-3.4 2.6-5.3 5.5-5.3s5 1.9 5.5 5.3"/><path d="M15 14.4c2.6-.3 4.8 1.4 5.5 4.6"/></svg><span><b>Setup and support included</b>We work around your unit’s schedule</span></li>
+    <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V8a4 4 0 018 0v2.5"/><path d="M12 14.5v2"/></svg><span><b>Your details stay private</b>Used only to reply to your request</span></li>
+   </ul>
+   <a class="mail-link" href="mailto:Aurasyncmedical@gmail.com?subject=AuraCart%20pilot"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 7l8.5 6 8.5-6"/></svg>Aurasyncmedical@gmail.com</a>
+  </div>
+  <div class="form-card">
+   <form class="form" id="pilot-form" action="https://formsubmit.co/aurasyncmedical@gmail.com" method="post" novalidate>
+    <h3 class="form-title">Pilot request</h3>
+    <div class="field"><label for="f-name">Full name</label><input id="f-name" name="name" autocomplete="name" required maxlength="120" placeholder="Jane Smith"></div>
+    <div class="field"><label for="f-facility">Facility</label><input id="f-facility" name="facility" autocomplete="organization" required maxlength="160" placeholder="Hospital or clinic name"></div>
+    <div class="field"><label for="f-role">Role <span class="opt">(optional)</span></label>
+     <select id="f-role" name="role"><option value="">Select your role</option><option>Nurse manager</option><option>Nurse / clinician</option><option>Supply chain / materials management</option><option>Hospital administrator</option><option>Other</option></select></div>
+    <div class="field"><label for="f-email">Work email</label><input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" required maxlength="200" placeholder="you@hospital.org"></div>
+    <div class="field"><label for="f-phone">Phone <span class="opt">(optional)</span></label><input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" maxlength="40"></div>
+    <div class="hp" aria-hidden="true"><label for="f-web">Website</label><input id="f-web" name="website" tabindex="-1" autocomplete="off"></div>
+    <button class="btn btn-p btn-full btn-lg" type="submit">Request a Free Pilot</button>
+    <p class="form-msg" id="form-msg" role="status" aria-live="polite"></p>
+    <p class="form-note">By submitting, you agree to be contacted about the pilot. We never share your details.</p>
+   </form>
+   <div class="form-done" aria-hidden="true"><svg class="ic ic-xl" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M8.3 12.3l2.5 2.5 5-5.3"/></svg><h3>Thank you</h3><p>Your pilot request was received. We’ll be in touch soon.</p></div>
   </div>
  </div>
 </section>
 </main>
-<footer>
- <div class="wrap">
-  <a href="#top" class="logo"><span class="logo-mark" style="width:28px;height:28px;border-radius:8px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2dd4bf" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12h4l2.5-6 4 12 2.5-6H21"/></svg></span><span>AuraSync <b>Medical</b></span></a>
-  <a class="m" href="mailto:Aurasyncmedical@gmail.com">Aurasyncmedical@gmail.com</a>
-  <span>© 2026 AuraSync Medical</span>
+
+<footer class="footer">
+ <div class="wrap foot-grid">
+  <div class="foot-brand">
+   <a href="#top" class="logo logo-light" aria-label="AuraSync Medical home"><svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><rect width="40" height="40" rx="10" fill="#0B2A4A"/><path d="M8 12h3.2l1.6 3.2" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><rect x="12.4" y="15" width="19.6" height="13.2" rx="2.6" fill="none" stroke="#fff" stroke-width="2.4"/><circle cx="16.4" cy="32.2" r="2.1" fill="#fff"/><circle cx="28" cy="32.2" r="2.1" fill="#fff"/><path d="M22.2 17.9v7.4M18.5 21.6h7.4" stroke="#2EC4B6" stroke-width="2.8" stroke-linecap="round"/></svg><span class="logo-txt">AuraSync<b>Medical</b></span></a>
+   <p>Smart supply solutions for nursing teams.</p>
+   <a class="btn btn-w btn-sm" href="#contact">Request a Pilot</a>
+  </div>
+  <div class="foot-col"><h4>Company</h4><a href="#solution">Solution</a><a href="#how">How the Pilot Works</a><a href="#benefits">Benefits</a></div>
+  <div class="foot-col"><h4>Resources</h4><a href="#hospitals">For Hospitals</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></div>
+  <div class="foot-col"><h4>Get in touch</h4><a href="mailto:Aurasyncmedical@gmail.com">Aurasyncmedical@gmail.com</a></div>
  </div>
+ <div class="wrap foot-bottom"><span>&copy; 2026 AuraSync Medical. All rights reserved.</span><a href="#top">Back to top &uarr;</a></div>
 </footer>
 <script src="script.js" defer></script>
 </body>
